@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AboutUs" customModule="task12" customModuleProvider="target">
+            <connections>
+                <outlet property="about" destination="t7a-lu-1NX" id="g4e-bc-SYt"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="t7a-lu-1NX">
+                    <rect key="frame" x="65" y="155" width="244" height="309"/>
+                    <color key="backgroundColor" red="1" green="0.84752544819999998" blue="0.59296149080000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="244" id="NSc-Qw-UaR"/>
+                        <constraint firstAttribute="height" constant="309" id="XgB-jM-exb"/>
+                    </constraints>
+                    <string key="text">Nhà hàng bánh ngọt Paris Gâteaux thuộc công ty liên doanh Grand Union Việt Nam khai trương ngày 2 tháng 10 vừa qua hứa hẹn trở thành một điểm đến lý thú cho những ai yêu thích văn hóa ẩm thực Pháp.
+
+Đến với Paris Gâteaux thực khách không chỉ được thưởng thức các món bánh với hương vị Pháp tuyệt hảo mà còn được tận mắt chứng kiến không gian thưởng thức mang đậm phong cách của nước Pháp hoa lệ và trang nhã.  Paris gâteaux nổi bật với lối kiến trúc sang trọng, trang nhã trên tông màu trắng. Bên trong là những chiếc bàn, ghế sofa êm ái với gam màu chủ đạo là xanh cốm và nâu sôcôla mang đến cho thực khách một cảm giác ấm áp, thân quen mà không kém phần tinh tế.  Paris Gâteaux có đủ chủng loại bánh Gato, bánh mì, bánh bỏ lò, pizza, café, fastfood… do các chuyên gia đến từ Đài Loan đảm nhiệm chế biến.  Paris Gâteaux có 3 tầng. Tầng 1 là nơi bán và trưng bày sản phẩm. Tầng 2 và 3 của Paris Gâteaux là nơi để sản xuất.
+
+Bánh tại Paris Gâteaux được làm từ các nguyên liệu ngoại nhập và sản xuất trên dây truyền hiện đại, đảm bảo các tiêu chuẩn về vệ sinh và an toàn thực phẩm.</string>
+                    <color key="textColor" red="0.1910214281" green="0.2125394562" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="0.19102142805559699" green="0.21253945615691561" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="t7a-lu-1NX" secondAttribute="centerX" id="2nd-Z1-mCe"/>
+                <constraint firstAttribute="centerY" secondItem="t7a-lu-1NX" secondAttribute="centerY" constant="24" id="FFi-1P-6RT"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="71.5" y="328.5"/>
+        </view>
+    </objects>
+</document>

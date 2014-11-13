@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>93080E8F-6D0B-4D4E-92CB-008E67F06AB3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>task12</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2D5956B645D33C3383103155B421EC28FC031137</key>
+		<string>https://github.com/VTChuong/TechmasterTask.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>task12.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2D5956B645D33C3383103155B421EC28FC031137</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/VTChuong/TechmasterTask.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2D5956B645D33C3383103155B421EC28FC031137</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2D5956B645D33C3383103155B421EC28FC031137</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TechmasterTask</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Menu" customModule="task12" customModuleProvider="target">
+            <connections>
+                <outlet property="birthdayCake" destination="3AO-yk-oEA" id="jnj-lz-1wv"/>
+                <outlet property="coffee" destination="G9h-xf-Vzq" id="43d-4H-spi"/>
+                <outlet property="cookies" destination="D0X-FW-RFW" id="HKz-d2-lqh"/>
+                <outlet property="iceScream" destination="1hy-NF-iQY" id="eG0-iG-Vkg"/>
+                <outlet property="muffin" destination="V8h-uB-kkp" id="4N1-it-9hO"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="ZUG-CA-dZe"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="cookies.png" translatesAutoresizingMaskIntoConstraints="NO" id="D0X-FW-RFW">
+                    <rect key="frame" x="55" y="209" width="128" height="118"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="birthdayCake.png" translatesAutoresizingMaskIntoConstraints="NO" id="3AO-yk-oEA">
+                    <rect key="frame" x="191" y="209" width="128" height="118"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="coffee-cup.png" translatesAutoresizingMaskIntoConstraints="NO" id="G9h-xf-Vzq">
+                    <rect key="frame" x="239" y="98" width="128" height="118"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iceCream.png" translatesAutoresizingMaskIntoConstraints="NO" id="1hy-NF-iQY">
+                    <rect key="frame" x="123" y="98" width="128" height="142"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ParisGateuax.png" translatesAutoresizingMaskIntoConstraints="NO" id="Vuo-hq-5Mj">
+                    <rect key="frame" x="4" y="346" width="367" height="154"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="muffin.png" translatesAutoresizingMaskIntoConstraints="NO" id="V8h-uB-kkp">
+                    <rect key="frame" x="8" y="93" width="128" height="128"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.86668779259999995" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="G9h-xf-Vzq" firstAttribute="leading" secondItem="1hy-NF-iQY" secondAttribute="trailing" constant="-12" id="3bi-PB-bv2"/>
+                <constraint firstItem="1hy-NF-iQY" firstAttribute="leading" secondItem="D0X-FW-RFW" secondAttribute="trailing" constant="-60" id="5Cd-2f-6MP"/>
+                <constraint firstItem="G9h-xf-Vzq" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="98" id="6vb-v1-rDa"/>
+                <constraint firstItem="1hy-NF-iQY" firstAttribute="leading" secondItem="V8h-uB-kkp" secondAttribute="trailing" constant="-13" id="B5V-33-MAw"/>
+                <constraint firstItem="D0X-FW-RFW" firstAttribute="top" secondItem="V8h-uB-kkp" secondAttribute="bottom" constant="-12" id="GVw-O3-F43"/>
+                <constraint firstItem="V8h-uB-kkp" firstAttribute="height" secondItem="D0X-FW-RFW" secondAttribute="height" id="NG0-yQ-S4d"/>
+                <constraint firstItem="1hy-NF-iQY" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="98" id="OOx-mc-ifj"/>
+                <constraint firstItem="V8h-uB-kkp" firstAttribute="width" secondItem="G9h-xf-Vzq" secondAttribute="width" id="R8d-0F-OF4"/>
+                <constraint firstItem="V8h-uB-kkp" firstAttribute="width" secondItem="3AO-yk-oEA" secondAttribute="width" id="TMp-ip-XKN"/>
+                <constraint firstItem="3AO-yk-oEA" firstAttribute="top" secondItem="1hy-NF-iQY" secondAttribute="bottom" constant="-17" id="dOf-WL-QJA"/>
+                <constraint firstItem="V8h-uB-kkp" firstAttribute="height" secondItem="1hy-NF-iQY" secondAttribute="height" multiplier="0.9" id="gGC-ph-Ha8"/>
+                <constraint firstItem="V8h-uB-kkp" firstAttribute="width" secondItem="1hy-NF-iQY" secondAttribute="width" id="gye-ex-JIH"/>
+                <constraint firstItem="V8h-uB-kkp" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="93" id="izB-vi-zj8"/>
+                <constraint firstAttribute="centerX" secondItem="1hy-NF-iQY" secondAttribute="centerX" id="ktf-bi-YSN"/>
+                <constraint firstItem="V8h-uB-kkp" firstAttribute="height" secondItem="3AO-yk-oEA" secondAttribute="height" id="lAm-1K-zfL"/>
+                <constraint firstItem="V8h-uB-kkp" firstAttribute="height" secondItem="G9h-xf-Vzq" secondAttribute="height" id="oSh-ok-p7O"/>
+                <constraint firstItem="V8h-uB-kkp" firstAttribute="width" secondItem="D0X-FW-RFW" secondAttribute="width" id="rxx-zB-kJV"/>
+                <constraint firstItem="3AO-yk-oEA" firstAttribute="leading" secondItem="D0X-FW-RFW" secondAttribute="trailing" constant="8" id="zuf-8X-mb1"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="334.5" y="318.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ParisGateuax.png" width="249" height="125"/>
+        <image name="birthdayCake.png" width="128" height="128"/>
+        <image name="coffee-cup.png" width="128" height="128"/>
+        <image name="cookies.png" width="128" height="128"/>
+        <image name="iceCream.png" width="128" height="128"/>
+        <image name="muffin.png" width="128" height="128"/>
+    </resources>
+</document>
